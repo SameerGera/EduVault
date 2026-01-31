@@ -8,7 +8,7 @@
 // 3. Paste it below to connect the frontend to the live Polygon Amoy testnet.
 // ==============================================================================
 
-export const EDU_VAULT_CONTRACT_ADDRESS = "0x0000000000000000000000000000000000000000"; 
+export const EDU_VAULT_CONTRACT_ADDRESS = "0x1601Ed569221C863dcDe833fA5Dacf5e7eD1FAe8"; 
 
 export interface Degree {
   id: number;
