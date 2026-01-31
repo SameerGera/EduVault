@@ -551,7 +551,7 @@ const ArchitectureViewer = () => {
                                     <span className="text-xs font-bold text-white">Employer Sees:</span>
                                 </div>
                                 <ul className="text-[10px] text-slate-300 space-y-1 ml-5 list-disc">
-                                    <li>Claim: <span className="text-emerald-300">"GPA > 7.5"</span></li>
+                                    <li>Claim: <span className="text-emerald-300">"GPA {'>'} 7.5"</span></li>
                                     <li>Is Valid? <span className="text-emerald-300">TRUE</span></li>
                                     <li>Actual GPA? <span className="text-red-400">HIDDEN</span></li>
                                 </ul>
