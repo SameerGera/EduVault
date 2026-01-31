@@ -1,20 +1,33 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <h1>🏛️ EduVault</h1>
+  <p><strong>Unforgeable Digital Credentials for Atmanirbhar Bharat</strong></p>
+  <p><i>Eliminating academic fraud through Decentralized Trust</i></p>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🚀 Vision
+EduVault is an indigenous trust infrastructure designed to secure India's academic future. By transforming degrees into **Soulbound Tokens (SBTs)**, we eliminate the 30-day manual verification backlog and render certificate forgery mathematically impossible.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1DbOSsKFD1ZcOAuODvubptQ4quJils2vg
+## ✨ Key Features
+* **Soulbound Credentials:** Non-transferable tokens (SBTs) that are permanently "bound" to a student's digital identity.
+* **Instant Verification:** Employers can verify authenticity in seconds via a simple QR/Hash scan.
+* **Privacy-First (DPDP Compliant):** Only cryptographic hashes are stored on-chain; sensitive personal data remains off-chain.
+* **Cost-Efficient:** Built on **Polygon Amoy (L2)** to keep issuance costs under ₹1 per student.
+* **Social Recovery:** Uses **ERC-4337 (Account Abstraction)** concepts to allow institutional recovery of lost wallets.
 
-## Run Locally
+## 🛠️ Tech Stack
+* **Blockchain:** Solidity, Polygon Amoy Testnet, Hardhat
+* **Frontend:** React.js, Tailwind CSS, Lucide Icons
+* **Interaction:** Ethers.js
+* **Dev Environment:** Vite, TypeScript
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📂 Project Structure
+```text
+├── contracts/          # Solidity Smart Contracts (SBT Logic)
+├── scripts/            # Deployment scripts for Polygon Amoy
+├── src/
+│   ├── components/     # UI Dashboard & Verification Terminal
+│   ├── interactions/   # Ethers.js blockchain bridge
+│   └── App.tsx         # Main Application Logic
+└── hardhat.config.js   # Blockchain network configuration
