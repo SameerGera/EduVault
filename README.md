@@ -23,6 +23,16 @@ EduVault is an indigenous trust infrastructure designed to secure India's academ
 * **Interaction:** Ethers.js
 * **Dev Environment:** Vite, TypeScript
 
+## DEMO
+Just go to:
+http://edu-vault-jet.vercel.app/
+
+## TEAM MEMBERS
+1. Riddhi Garg
+2. Siya Julka
+3. Divya Jalan
+4. Sameer Gera
+
 ## 📂 Project Structure
 ```text
 ├── contracts/          # Solidity Smart Contracts (SBT Logic)
@@ -32,12 +42,3 @@ EduVault is an indigenous trust infrastructure designed to secure India's academ
 │   ├── interactions/   # Ethers.js blockchain bridge
 │   └── App.tsx         # Main Application Logic
 └── hardhat.config.js   # Blockchain network configuration
-
-## DEMO
-http://edu-vault-jet.vercel.app/
-
-## TEAM MEMBERS
-1. Riddhi Garg
-2. Siya Julka
-3. Divya Jalan
-4. Sameer Gera
