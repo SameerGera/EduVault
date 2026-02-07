@@ -9,6 +9,7 @@
 ## 🚀 Vision
 EduVault is an indigenous trust infrastructure designed to secure India's academic future. By transforming degrees into **Soulbound Tokens (SBTs)**, we eliminate the 30-day manual verification backlog and render certificate forgery mathematically impossible.
 
+
 ## ✨ Key Features
 * **Soulbound Credentials:** Non-transferable tokens (SBTs) that are permanently "bound" to a student's digital identity.
 * **Instant Verification:** Employers can verify authenticity in seconds via a simple QR/Hash scan.
@@ -31,3 +32,6 @@ EduVault is an indigenous trust infrastructure designed to secure India's academ
 │   ├── interactions/   # Ethers.js blockchain bridge
 │   └── App.tsx         # Main Application Logic
 └── hardhat.config.js   # Blockchain network configuration
+
+## DEMO
+http://edu-vault-jet.vercel.app/
