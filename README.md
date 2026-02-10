@@ -10,6 +10,10 @@
 EduVault is an indigenous trust infrastructure designed to secure India's academic future. By transforming degrees into **Soulbound Tokens (SBTs)**, we eliminate the 30-day manual verification backlog and render certificate forgery mathematically impossible.
 
 
+## Prototype
+Just go to:
+http://edu-vault-jet.vercel.app/
+
 ## ✨ Key Features
 * **Soulbound Credentials:** Non-transferable tokens (SBTs) that are permanently "bound" to a student's digital identity.
 * **Instant Verification:** Employers can verify authenticity in seconds via a simple QR/Hash scan.
@@ -22,10 +26,6 @@ EduVault is an indigenous trust infrastructure designed to secure India's academ
 * **Frontend:** React.js, Tailwind CSS, Lucide Icons
 * **Interaction:** Ethers.js
 * **Dev Environment:** Vite, TypeScript
-
-## DEMO
-Just go to:
-http://edu-vault-jet.vercel.app/
 
 ## TEAM MEMBERS
 1. Riddhi Garg
