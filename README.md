@@ -27,11 +27,6 @@ http://edu-vault-jet.vercel.app/
 * **Interaction:** Ethers.js
 * **Dev Environment:** Vite, TypeScript
 
-## TEAM MEMBERS
-1. Riddhi Garg
-2. Siya Julka
-3. Divya Jalan
-4. Sameer Gera
 
 ## 📂 Project Structure
 ```text
